@@ -2,6 +2,7 @@
 bmp - dynamic lib => compiling:
 
 gcc -c -fPIC source/bmp.c
+
 gcc -shared -o bmp.so bmp.o
 
 bmp_edit/lib
